@@ -1,0 +1,43 @@
+.accordion-button{
+    background: linear-gradient(
+        90deg,
+        #0A0A0F,
+        #1B1035,
+        #4A1D6D
+    ) !important;
+
+    color: white !important;
+    font-weight: 600;
+    border: none;
+}
+
+.accordion-button:not(.collapsed){
+    background: linear-gradient(
+        90deg,
+        #0A0A0F,
+        #1B1035,
+        #4A1D6D
+    ) !important;
+
+    color: white !important;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    border: none;
+}
+
+.accordion-button::after{
+    filter: brightness(0) invert(1); /* Makes the arrow white */
+}
+
+.accordion-body{
+    background: #FFFFFF;
+    color: #444;
+    line-height: 1.8;
+}
+ .accordion{
+    max-width: 750px;
+    width: 100%;
+    margin: 40px auto;
+}

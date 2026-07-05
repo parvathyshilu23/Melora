@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background:
+        linear-gradient(
+            rgba(255,255,255,0.95),
+            rgba(255,255,255,0.9)
+        ),
+        url('https://images.openai.com/static-rsc-4/D-mT8DfxdrEEK087OYVwqv_cAVzo6t8DBxGEUwLHvgiXahT4G-aTsXvt7ZNc-c6lyclHPBQTFi2-n2UVGPPG_nk-jHXN-xZ3x3R782F5iHmnv52__6uAtHBG-Fq_36VKnLQOYNIH3DVciUfc_3kxb5YjJJq-cP2x_C7HGTnTsyfsCegAeALMl0Mbqag3ZKjg?purpose=fullsize');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+p{
+    color: #2D3748;
+}
+ h1, h2, h3{
+    color: #1E1B4B;
+}
+ .about-section,
+.why-section,
+.stats-section{
+    background: rgba(255,255,255,0.85);
+    padding: 40px;
+    border-radius: 20px;
+}

@@ -1,0 +1,140 @@
+/* Welcome Section */
+
+.welcome-card{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.welcome-card h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #312E81;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.welcome-card p{
+    font-size: 1.5rem;
+    color: #EC4899;
+    font-weight: 500;
+}
+
+
+/* Features Section */
+
+.features-section{
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.features-section h2{
+    color: #5B21B6;
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+}
+
+.features-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-box{
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+
+    width: 300px;
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(124,58,237,0.15);
+
+    transition: 0.3s;
+}
+
+.feature-box:hover{
+    transform: translateY(-10px);
+
+    box-shadow: 0 15px 35px rgba(236,72,153,0.25);
+}
+
+.feature-box h3{
+    color: #6D28D9;
+    margin-bottom: 15px;
+}
+
+.feature-box p{
+    color: #6B7280;
+}
+
+
+/* Explore Section */
+
+.explore-section{
+    padding: 80px 20px;
+}
+
+.explore-content{
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.explore-text{
+    flex: 1;
+}
+
+.explore-text h2{
+    color: #312E81;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.explore-text p{
+    color: #6B7280;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.explore-btn{
+    background: linear-gradient(
+        90deg,
+        #6D28D9,
+        #EC4899
+    );
+
+    color: white;
+    border: none;
+
+    padding: 14px 35px;
+
+    border-radius: 50px;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.explore-btn:hover{
+    transform: scale(1.05);
+}
+
+.explore-image{
+    flex: 1;
+    text-align: center;
+}
+
+.explore-image img{
+    width: 100%;
+    max-width: 450px;
+}

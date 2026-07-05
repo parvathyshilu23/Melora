@@ -1,0 +1,52 @@
+.custom-navbar{
+    background: linear-gradient(
+        90deg,
+        #0A0A0F,
+        #1B1035,
+        #4A1D6D
+    );
+
+    padding: 15px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.35);
+}
+.logo-img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #EC4899;
+}
+
+.brand-name{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link{
+    color: rgba(255,255,255,0.85);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 12px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #EC4899;
+    transform: translateY(-2px);
+}
+
+
+
+.navbar-toggler{
+    border: 1px solid rgba(255,255,255,0.4);
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler-icon{
+    filter: invert(1);
+}
